@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn ReactJS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <header>
+    <img src="C:\wamp64\www\projects\web-final\images\logo-removebg-preview.png" alt="Logo">
+    <h1>Learn ReactJS</h1>
+    <button onclick="openLoginForm()" class="login-btn">Login</button>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="feedbacks.html">Feedbacks</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="topics.html">Topics</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Welcome to Learn ReactJS</h2>
+      <p>Your journey to mastering ReactJS starts here.</p><br>
+      <p>Learning ReactJS can be a rewarding experience, and here's why: React is a popular and in-demand technology, making it a valuable skill to have in the job market.<br> Its component-based architecture and virtual DOM make it efficient and easy to maintain. Additionally, React is widely used in many industries, <br>including web development, mobile app development, and even game development. Moreover, React has a large and active community, which means there are plenty of <br>resources available to help you learn and stay up-to-date with the latest developments.</p>
+    </section>
+  </main>                   <center>
+                              <div class="nuxell"><h1>To begin with us</h1>
+                              <button onclick="openLoginForm()" class="login-btn">Login</button>
+                              <h3>LOGIN now </h3><h1>Happy Hacking!</h1>
+                            </div></center>
+                              
+  <!-- Login Form Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeLoginForm()">&times;</span>
+        <h2>Subscription</h2>
+        <form id="loginForm">
+          <label for="username">Email:</label><br>
+          <input type="email" id="username" name="email" required placeholder="enter mailId"><br>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required placeholder="enter password"><br>
+          <button type="submit">subscrib</button>
+        </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Learn ReactJS. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

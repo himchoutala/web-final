@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support - Learn ReactJS</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="C:\wamp64\www\projects\web-final\images\logo-removebg-preview.png" alt="Logo">
+    <h1>Learn ReactJS</h1>
+    <button onclick="openLoginForm()" class="login-btn">Login</button>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="feedbacks.html">Feedbacks</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="topics.html">Topics</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+        <h3>Our Goals and Vision</h3>
+        <p>We aim to be the leading online resource for ReactJS education, providing high-quality and up-to-date learning materials. <br>Our vision is to create a community of skilled React developers who are prepared to tackle real-world challenges and innovate in the tech industry.</p>
+      <p>We are committed to providing the best resources and support to help you master ReactJS. Our tutorials, exercises, and projects are <br>designed to cater to different learning styles and levels. If you have any questions or need help, our community and support team are here for you.</p>
+
+      <h3>For Teachers and Educators even Students</h3>
+      <p>If you are a qualified instructor and passionate about teaching, we would love to have you join our team. <br>By contributing to our platform, you can help shape the future of web development education. You can support us by teaching more courses or sharing your skills.</p>
+      <p>Please contact us at: <a href="mailto:support@learnreactjs.com">support@learnreactjs.com</a><br> or reach out via WhatsApp at: +1234567890</p>
+    </section>
+  </main>
+
+  <!-- Login Form Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeLoginForm()">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="email" id="username" name="email" required placeholder="enter mailId">
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required placeholder="enter password">
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Learn ReactJS. All rights reserved.</p>
+  </footer>
+</body>
+</html>

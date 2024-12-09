@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Learn ReactJS</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="C:\wamp64\www\projects\web-final\images\logo-removebg-preview.png" alt="Logo">
+    <h1>Learn ReactJS</h1>
+    <button onclick="openLoginForm()" class="login-btn">Login</button>
+  </header>
+  <nav>
+    <ul style="color:white;">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="feedbacks.html">Feedbacks</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="topics.html">Topics</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Welcome to Learn ReactJS</h2>
+      <p>Your journey to mastering ReactJS starts here.</p>
+      <div class="card-container">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background-image: url('C:\wamp64\www\projects\web-final\images\c3.jpg');">
+              <p>Comprehensive tutorials covering basic to advanced topics.</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Start from scratch and build up to advanced concepts with our well-structured tutorials.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background-image: url('C:\wamp64\www\projects\web-final\images\c4.jpg');">
+      
+              <p>Interactive exercises to apply your knowledge.</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Engage in hands-on exercises to reinforce your learning and practice new skills.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background-image: url('C:\wamp64\www\projects\web-final\images\c2.jpg');">
+              
+              <p>Real-world projects to build your portfolio.</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Work on real-world projects to showcase your skills and enhance your portfolio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front" style="background-image: url('C:\wamp64\www\projects\web-final\images\c1.jpg');">
+              
+              <p>Community support to help you along your learning journey.</p>
+            </div>
+            <div class="flip-card-back">
+              <p>Join our community of learners and get support from peers and mentors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<center>
+    <div class="nuxell">
+      <h1>Join us NOW!</h1>
+      <button onclick="openLoginForm()" class="login-btn">Login</button>
+      <h2>BY Login </h2></div>
+    </center>
+  
+
+  <!-- Login Form Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeLoginForm()">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Email:</label><br>
+        <input type="email" id="username" name="email" required placeholder="enter mailId"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required placeholder="enter password"><br>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Learn ReactJS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
